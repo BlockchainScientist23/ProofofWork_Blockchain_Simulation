@@ -101,4 +101,8 @@ public class Blockchain extends Thread{
         }
         return counter;
     }
+
+    public Long getTime(){
+        return time;
+    }
 }
